@@ -1,0 +1,177 @@
+
+{font-family: Arial, Helvetica, sans-serif;}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+  /* Table strip colors */
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #e0ffff;
+  color: black;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: white;
+  color: black;
+}
+/* Set a style for all buttons */
+button {
+  border-radius:5px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.hola{
+	float:left;
+}
+button:hover {
+  opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.cancelbtn_edit {
+  position: relative;
+  top: -500px;
+  right: -540px;
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+  text-decoration-color: red;
+}
+.cancelbtn_add {
+  position: relative;
+  top: -650px;
+  right: -550px;
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+  text-decoration-color: red;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100% ; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; 
+  height:auto;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+} 
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 50%;
+  }
+}
+//approve button
+#button1{   
+width: 300px;
+height: 40px;
+float:left;
+}
+//reject button
+#button2{
+width: 300px;
+height: 40px;
+float : left;
+}
+
+#outer
+{
+	width:120%;
+	text-align:center;
+}
+.inner
+{
+	display:inline-block;
+}
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #666 !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+    }
+    .bottom-left{
+    float:right;
+    }
+  .top{
+  float:right;
+  }
+  .bottom{
+  float:left;
+  background-color:"#e0ffff";
+  }
+  .dataTables_wrapper .dataTables_filter input {
+    height: 35px;
+    margin-left: 0.5em;
+    border-radius: 6px;
+    background-color:#e0ffff;
+    border-color:transparent;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th { background-color: #ffeeec;}
+ .dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+    border-color:transparent #DCDCDC #DCDCDC #DCDCDC;
+    border-style: solid;
+    border-width: 15px;
+}
+ div.container-fluid {
+    border-style: solid;
+    border-color: #DCDCDC #DCDCDC transparent #DCDC;
+    border-width: 15px;
+    margin-bottom: -40px;
+}
+ul.nav.navbar-nav{
+    border-style: solid;
+    border-color: #DCDCDC #DCDCDC transparent #DCDC;
+    border-width: 15px;
+    margin-bottom: -40px;
+}
